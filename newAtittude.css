@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**	GLOBAL LAYOUT STYLES */
+
+
+* {margin:0; padding:0;}
+
+#NSU-Emulation {
+	background-image: url(img/bg_sub-empty.jpg);
+	/*padding-top: 50px;*/
+	background-size: 1800px 1024px;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	
+}
+
+#ssc-wrapper {
+	width: 992px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 992px;
+	background-color: white;			
+	border-right: 1px solid rgb(204, 204, 204);
+	border-left: 1px solid rgb(204, 204, 204);
+}
+
+/*HEADER COMPONENTS*/
+
+
+.header-top {width:992px; height:78px; background-image:url(img/logo-bkg.jpg);}
+
+.header-nav {}
+
+.mylogo{
+overflow: hidden;
+height: 1px;
+padding-top: 31px; /* assuming that target height mus be 32px */
+line-height: 99em;
+background-image:url(img/ssc-web-logo-new.png);
+width:407px;
+margin-top:18px;}
+
+header {border-bottom:1px solid #06a07c;}
+
+/*	GLOBAL NAVIGATION STYLES  */
+#ssc-nav-ribbon { background-color: #FAFAFA; height: 48px;
+	width: 992px;
+	background-repeat: no-repeat !important;
+	padding: 0px;
+	position: relative;
+	height: 48px;
+}
+
+#ssc-nav-ribbon p{text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #6f7070;font-size: 13px !important;}
+
+.sign-up {position:relative; top:10px;}
+
+#ssc-navbar { position:relative; width:800px; height:20px; z-index:3; text-align: left; padding:14px 0px; float:left;}
+
+#ssc-navbar ul { list-style-type: none; display: inline; text-align: center; }
+
+#ssc-navbar a {
+	padding-right: 10px;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #6f7070;
+	font-variant: normal;
+	font-size: 13px !important;
+	letter-spacing: 0.1em;
+	padding: 4px;
+	margin: 6px 10px;
+	font-weight: normal;
+	
+}
+
+#ssc-navbar a:hover {letter-spacing: 0.1em; padding:4px; margin: 6px 10px; font-weight: normal;
+	color:#258C6E !important;
+	font-size: 13px !important;
+	
+}
+
+#ssc-navbar a:active { color:#9B9999 !important; font-size: 13px !important; }
+
+/*		HOMEPAGE FEATURE AREA	*/
+
+#scc-home-feature {width:992; height:397px; background-image:url(img/feature-bkg.jpg);}
+
+#ssc-tabbed-area {width:992; height:575px; background-image:url(img/tabbed-bkg.png);}
